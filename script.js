@@ -43,7 +43,6 @@ function saveData() {
 
 // Custom Cursor
 document.addEventListener('mousemove', (e) => {
-    document.querySelector('.cursor').style.display = 'inline'
     document.querySelector('.cursor').style.left = `${e.clientX}px`
     document.querySelector('.cursor').style.top = `${e.clientY}px`
 })
