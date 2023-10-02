@@ -65,10 +65,7 @@
     margin: 5px;
     transition: .3s;
 }
-.heading .logo:hover {
-    width: 55px;
-    margin: 0px;
-}
+
 
 .date {
     position: relative;
@@ -100,10 +97,7 @@
     width: 40px;
     transition: .5s;
 }
-.addButton:hover {
-    opacity: .8;
-    rotate: 90deg;
-}
+
 
 /* ================== Main Body ====================*/
 .taskListContainer {
@@ -228,6 +222,15 @@
         filter:drop-shadow(2px 2px 2px #000);
     }
     
+    .heading .logo:hover {
+        width: 55px;
+        margin: 0px;
+    }
+
+    .addButton:hover {
+        opacity: .8;
+        rotate: 90deg;
+    }
     .taskList {
         right: 45px;
         left: 45px;
