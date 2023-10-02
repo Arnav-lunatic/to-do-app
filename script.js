@@ -8,6 +8,16 @@ const addTaskInput = document.querySelector('.addTask input')
 const taskListContainer = document.querySelector('.taskListContainer')
 const taskUl = document.querySelector('.taskUl')
 
+localStorage.firstVisit += 0
+
+if (localStorage.firstVisit == 0) {
+    document.querySelector('.welcomePage').style.display = 'inline'
+}
+document.querySelector('.welcomePage').addEventListener('click', () => {
+    document.querySelector('.welcomePage').style.display = 'none'
+    localStorage.firstVisit += 1
+})
+
 //Functions
 function addTaskInContainer() {
     taskUl.innerHTML += `
