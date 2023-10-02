@@ -148,5 +148,7 @@ taskUl.addEventListener('click', (e) => {
 })
 
 
-
-taskUl.innerHTML = localStorage.data
+function displayData() {
+    taskUl.innerHTML = localStorage.data
+}
+displayData()
