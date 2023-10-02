@@ -21,6 +21,7 @@
 }
 
 .cursor {
+    display: none;
     position: absolute;
     z-index: 100;
     width: 30px;
