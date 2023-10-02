@@ -19,6 +19,7 @@ function checkSession(){
    var c = getCookie("visited");
    if (c === "yes") {
     document.querySelector('.welcomePage').style.display = 'none'
+    taskUl.innerHTML = localStorage.data
    } else {
     document.querySelector('.welcomePage').style.display = 'inline'
    }
@@ -148,7 +149,3 @@ taskUl.addEventListener('click', (e) => {
 })
 
 
-function displayData() {
-    taskUl.innerHTML = localStorage.data
-}
-displayData()
