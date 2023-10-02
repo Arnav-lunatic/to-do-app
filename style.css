@@ -159,11 +159,6 @@
     padding: 10px;
 }
 
-.delTask:hover {
-    background-color: #323232;
-    border-radius: 10px;
-}
-
 
 /* ================== Add Task Pop up ====================*/
 
@@ -245,6 +240,10 @@
 
     .taskUl {
         padding: 30px 80px;
+    }
+    .delTask:hover {
+        background-color: #323232;
+        border-radius: 10px;
     }
 }
 @media (min-width: 1500px) {
